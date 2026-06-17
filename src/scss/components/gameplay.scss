@@ -1,0 +1,81 @@
+.gameplay-section {
+  padding-top: 80px;
+
+  @include media(desktop) {
+    padding-top: 150px;
+  }
+}
+
+.gameplay-container {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-title {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px 20px;
+  }
+}
+
+.gameplay-list-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  @include media(desktop) {
+    gap: 20px;
+    width: 100%;
+    max-width: 413px;
+  }
+}
+
+.gameplay-img {
+  min-width: 88px;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-text-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-title {
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #fd5f60;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e3a4f;
+
+  @include media(desktop) {
+  }
+}

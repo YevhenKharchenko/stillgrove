@@ -1,0 +1,67 @@
+.about-section {
+  @include media(desktop) {
+  }
+}
+
+.about-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 150px;
+    max-width: 1440px;
+    background-image: url(../img/about/about-bg-desk.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: auto;
+  }
+}
+
+.about-container {
+  @include media(desktop) {
+  }
+}
+
+.about-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.about-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @include media(desktop) {
+    gap: 16px;
+    max-width: 632px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.about-title {
+  @include media(desktop) {
+  }
+}
+
+.about-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #2e3a4f;
+
+  @include media(desktop) {
+  }
+}
+
+.about-text-span {
+  font-weight: 700;
+
+  @include media(desktop) {
+  }
+}

@@ -1,0 +1,51 @@
+.mechanics-section {
+  @include media(desktop) {
+  }
+}
+
+.mechanics-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/mechanics/mechanics-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top 184px center;
+  background-size: auto;
+
+  @include media(desktop) {
+    padding-top: 150px;
+    padding-bottom: 351px;
+    max-width: 1440px;
+    background-image: url(../img/mechanics/mechanics-bg-desk.png);
+    background-position: bottom center;
+  }
+}
+
+.mechanics-container {
+}
+
+.mechanics-title {
+  @include media(desktop) {
+  }
+}
+
+.mechanics-subtitle {
+  margin-bottom: 219px;
+
+  @include media(desktop) {
+    margin-bottom: 22px;
+  }
+}
+
+.mechanics-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e3a4f;
+
+  @include media(desktop) {
+    max-width: 630px;
+  }
+}
