@@ -1,14 +1,18 @@
 .privacy-body {
   .header {
-    background: #9acde8;
+    background: #1c4443;
   }
 
   .header-bg-wrapper {
     background-image: none;
   }
+
+  .menu-icon {
+    fill: #7b6eff;
+  }
 }
 .policy-section {
-  background: #9acde8;
+  background: #1c4443;
   padding-top: 104px;
   padding-bottom: 40px;
 
@@ -19,12 +23,12 @@
 }
 
 .policy-section h1 {
-  font-family: 'Baloo 2', sans-serif;
-  font-weight: 700;
+  font-family: 'Marcellus', sans-serif;
+  font-weight: 400;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  color: #fd5f60;
+  color: #7b6eff;
   margin-bottom: 64px;
 
   @include media(desktop) {
@@ -33,11 +37,11 @@
 }
 
 .policy-section h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e3a4f;
+  color: #f1daf6;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -45,11 +49,11 @@
 }
 
 .policy-section h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e3a4f;
+  color: #f1daf6;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -57,11 +61,11 @@
 }
 
 .policy-section h4 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e3a4f;
+  color: #f1daf6;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -69,11 +73,11 @@
 }
 
 .policy-section p {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e3a4f;
+  color: #f1daf6;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -81,11 +85,11 @@
 }
 
 .policy-section li {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e3a4f;
+  color: #f1daf6;
   margin-bottom: 16px;
 
   @include media(desktop) {

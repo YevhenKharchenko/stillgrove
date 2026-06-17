@@ -3,11 +3,24 @@
 
   @include media(desktop) {
     padding-top: 150px;
+    padding-bottom: 150px;
   }
 }
 
 .gameplay-container {
+  padding: 0;
+
   @include media(desktop) {
+    padding: 0 80px;
+  }
+}
+
+.gameplay-title-wrapper {
+  padding: 0 20px;
+  margin-bottom: 22px;
+
+  @include media(desktop) {
+    padding: 0;
   }
 }
 
@@ -16,66 +29,77 @@
   }
 }
 
-.gameplay-content-wrapper {
+.gameplay-subtitle {
+  font-family: 'Marcellus', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #f1daf6;
+
   @include media(desktop) {
   }
 }
 
-.gameplay-list {
+.gameplay-img-mob {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.gameplay-content-wrapper {
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   gap: 18px;
 
   @include media(desktop) {
+    padding: 0;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 22px 20px;
-  }
-}
-
-.gameplay-list-item {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-
-  @include media(desktop) {
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    width: 100%;
-    max-width: 413px;
   }
 }
 
-.gameplay-img {
-  min-width: 88px;
+.gameplay-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 522px;
 
   @include media(desktop) {
   }
 }
 
-.gameplay-item-text-wrapper {
+.gameplay-img1-desk {
+  display: none;
+
   @include media(desktop) {
+    display: block;
   }
 }
 
-.gameplay-item-title {
-  font-family: 'Baloo 2', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #fd5f60;
-  margin-bottom: 12px;
-
-  @include media(desktop) {
-  }
-}
-
-.gameplay-item-text {
-  font-family: 'Nunito', sans-serif;
+.gameplay-text {
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e3a4f;
+  color: #f1daf6;
 
   @include media(desktop) {
+  }
+}
+
+.gameplay-img2-desk {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
   }
 }

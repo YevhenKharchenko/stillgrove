@@ -4,8 +4,8 @@
 }
 
 .hero-bg-wrapper {
-  padding-top: 302px;
-  padding-bottom: 75px;
+  padding-top: 184px;
+  padding-bottom: 437px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -15,8 +15,8 @@
   background-size: auto;
 
   @include media(desktop) {
-    padding-top: 226px;
-    padding-bottom: 182px;
+    padding-top: 244px;
+    padding-bottom: 243px;
     max-width: 1440px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
   }
@@ -36,22 +36,8 @@
 .hero-title-img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 176px;
 
   @include media(desktop) {
     margin: 0;
-    margin-bottom: 58px;
-  }
-}
-
-.hero-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: max-content;
-  margin-left: auto;
-  margin-right: auto;
-
-  @include media(desktop) {
   }
 }

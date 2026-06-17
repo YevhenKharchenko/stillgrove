@@ -1,5 +1,5 @@
 .context-menu {
-  background: #9acde8;
+  background: #1c4443;
   display: none;
   justify-content: center;
   align-items: center;
@@ -12,6 +12,10 @@
   right: 0;
   transform: none;
   z-index: 5;
+  background-image: url(../img/context/context-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 
 .context-nav {
@@ -26,7 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 36px;
+  gap: 34px;
 }
 
 .context-list-item {
@@ -36,11 +40,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e3a4f;
+  color: #f1daf6;
   transition:
     color 0.3s ease-in-out,
     background 0.3s ease-in-out;
